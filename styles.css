@@ -1,6 +1,65 @@
-h1
-{
-    color: pink;
-    font-size: 100px;
-    font-style: italic;
+h1 {
+    color: red;
+    font-size: 10vh;
+    position: center;
+}
+h2 {
+    color: red;
+    font-size: 5vh;
+    position: center;
+}
+.Next1 {
+    border-radius: 8px; /* Điều chỉnh bán kính bo tròn tại các góc */
+    padding: 15px 25px; /* Điều chỉnh lề và kích thước của nút */
+    background-color: #ffffff; /* Màu nền */
+    color: rgb(255, 255, 255); /* Màu chữ */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+    font-size: 50px; /* Cỡ chữ */
+    width: 300px; /* Điều chỉnh chiều rộng */
+    height: 200px; /* Điều chỉnh chiều cao */
+    margin-top: 300px; /* Điều chỉnh khoảng cách từ trên xuống */
+    margin-left: 0px; /* Điều chỉnh khoảng cách từ trái sang */
+}
+.Next1:hover {
+    background-color: rgb(212, 57, 125); /* Màu nền thay đổi khi di chuột qua */
+}
+.Back1 {
+    border-radius: 8px; /* Điều chỉnh bán kính bo tròn tại các góc */
+    padding: 15px 25px; /* Điều chỉnh lề và kích thước của nút */
+    background-color: #ffffff; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+    font-size: 50px; /* Cỡ chữ */
+    width: 300px; /* Điều chỉnh chiều rộng */
+    height: 200px; /* Điều chỉnh chiều cao */
+    margin-top: 0px; /* Điều chỉnh khoảng cách từ trên xuống */
+    margin-left: 0px; /* Điều chỉnh khoảng cách từ trái sang */
+}
+.Back1:hover {
+    background-color: rgb(212, 57, 125); /* Màu nền thay đổi khi di chuột qua */
+}
+.Next2 {
+    border-radius: 8px; /* Điều chỉnh bán kính bo tròn tại các góc */
+    padding: 15px 25px; /* Điều chỉnh lề và kích thước của nút */
+    background-color: #ffffff; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+    font-size: 100px; /* Cỡ chữ */
+    width: 300px; /* Điều chỉnh chiều rộng */
+    height: 200px; /* Điều chỉnh chiều cao */
+    margin-top: 0px; /* Điều chỉnh khoảng cách từ trên xuống */
+    margin-left: 0px; /* Điều chỉnh khoảng cách từ trái sang */
+}
+.Next2:hover {
+    background-color: rgb(212, 57, 125); /* Màu nền thay đổi khi di chuột qua */
+}
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao tối đa của body */
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
 }

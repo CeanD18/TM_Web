@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cậu có biết là ...</h1>
+    <button onclick="goBack()" class="Back1">Quay lại</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <button class="Next2">>></button>
+    <script>
+        const button = document.querySelector('.Next2');
+        button.addEventListener('click', function() {
+            window.location.href = 'newscreentwo.html';
+        });
+    </script>
+</body>
+</html>
